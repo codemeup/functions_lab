@@ -12,5 +12,6 @@ myFun();
 myFun();
 myFun();
 
-
+// the key here is to declare the variable outside the function
+// it's the difference between global scope and local scope. If you declare the var insode the function it only exists locally and not globally so it can't grab the value that is being returned and input it again
 
